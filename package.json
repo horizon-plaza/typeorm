@@ -6,8 +6,8 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "author": {
-    "name": "Umed Khudoiberdiev",
-    "email": "pleerock.me@gmail.com"
+    "name": "Horizon Plaza",
+    "email": "horizon.plaza@protonmail.com"
   },
   "engines": {
     "node": ">= 12.9.0"
@@ -63,12 +63,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/typeorm/typeorm.git"
+    "url": "https://github.com/horizon-plaza/typeorm.git"
   },
   "bugs": {
-    "url": "https://github.com/typeorm/typeorm/issues"
+    "url": "https://github.com/horizon-plaza/typeorm/issues"
   },
-  "homepage": "https://typeorm.io",
+  "homepage": "https://github.com/horizon-plaza",
   "tags": [
     "orm",
     "typescript",
