@@ -65,4 +65,10 @@ export interface ColumnCommonOptions {
      * this column when reading or writing to the database.
      */
     transformer?: ValueTransformer | ValueTransformer[]
+  
+    /**
+     * Specifies an encryption key that is to be used to 
+     * encrypt or decrypt data within the database.
+     */
+    encryptionKey?: string  
 }

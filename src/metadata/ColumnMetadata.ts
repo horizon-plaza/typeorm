@@ -328,6 +328,11 @@ export class ColumnMetadata {
      * SRID (Spatial Reference ID (EPSG code))
      */
     srid?: number
+  
+    /**
+     * Encryption Key
+     */
+    encryptionKey?: string  
 
     // ---------------------------------------------------------------------
     // Constructor
@@ -462,6 +467,8 @@ export class ColumnMetadata {
             this.spatialFeatureType = options.args.options.spatialFeatureType
         if (options.args.options.srid !== undefined)
             this.srid = options.args.options.srid
+        if (options.args.options.encryptionKey !== undefined)
+            this.encryptionKey = options.args.options.encryptionKey      
         if (this.isTreeLevel)
             this.type = options.connection.driver.mappedDataTypes.treeLevel
         if (this.isCreateDate) {
